@@ -1,5 +1,6 @@
 package com.whyisee.seckill.core.api;
 
+import com.whyisee.inter.restful.result.Result;
 import com.whyisee.seckill.bean.SGRelation;
 
 import java.util.List;
@@ -16,7 +17,7 @@ public interface SeckillActivityQuery <T>{
      * @Modified By:
      * @used in: SeckillActivityQuery
      */
-    List<T> querySeckillGoodsList();
+    Result<List<SGRelation>> querySeckillGoodsList();
 
     SGRelation querySeckillGoodsDetailInfo();
 

@@ -3,7 +3,7 @@
 风格:RESTful  
 域名:whyisee.com  
 版本:v1  
-参考1:https://api.github.com  
+参考1:https://docs.github.com/en/rest
 参考2:https://developer.paypal.com/docs/api 
 
 
@@ -31,4 +31,6 @@ POST whyisee.com/api/v1/sgoods
 |page_size|int|query|查询分页大小|
 |sort_by|string|query|查询排序字段|
 |sort_order|string|query|查询排序方式[asc,desc]|
+
+## 详细
 
